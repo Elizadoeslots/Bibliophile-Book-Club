@@ -15,13 +15,18 @@ body {
 }
 
 }
-h1 {
-    font-family: 'Madimi One', sans-serif;
-}
+
 /* Header */
 header {
     background-color: #d99F39;
-   
+padding: 0rem;
+position: fixed;
+z-index: 99;
+width: 100%;
+box-shadow:  0 1px 3px; rgba(217, 159, 57, 0.7);
+   }
+h1 {
+    font-family: 'Madimi One', sans-serif;
 }
 
 /* Main content */
