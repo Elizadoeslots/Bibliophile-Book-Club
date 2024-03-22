@@ -1,52 +1,72 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Madimi+One&display=swap');
+
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
     /* General styles */
-body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    /* Generic project styles */
-    color: #E0CFA8;
-    font-family: 'Dosis', sans-serif;
-}
+    body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        /* Generic project styles */
+        color: #E0CFA8;
+        font-family: 'Dosis', sans-serif;
+    }
 
 }
 
 /* Header */
 header {
     background-color: #d99F39;
-padding: 0rem;
-position: fixed;
-z-index: 99;
-width: 100%;
-box-shadow:  0 1px 3px; rgba(217, 159, 57, 0.7);
-   }
-   header a {
-    text-decoration: none;
-    color:#51422C ;
+    padding: 0rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 1px 3px;
+    rgba(217, 159, 57, 0.7);
 }
+
+header a {
+    text-decoration: none;
+    color: #51422C;
+}
+
 h1 {
     font-family: 'Madimi One', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #51422C ;
+    color: #51422C;
 }
+
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
     list-style-type: none;
 }
-#menu > li {
+
+#menu>li {
     margin-bottom: 1em;
 }
+
 .active {
     border-bottom: 1px solid #51422C;
 }
 
+/* Navbar dropdown toggle */
+nav {
+    position: absolute;
+    background-color: #d99F39;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 1px 3px;
+    rgba(217, 159, 57, 0.7);
+    display: none;
+    top: 100%;
+}
 
 /* Main content */
 main {
