@@ -17,10 +17,12 @@
     }
 
 }
+
 /* Header */
 header {
     background-color: #d99F39;
-    padding: 0rem;
+    padding: 1rem;
+    padding-bottom: .1px;
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -29,6 +31,7 @@ header {
     justify-content: space-between;
     align-items: baseline;
 }
+
 header a {
     text-decoration: none;
     color: #51422C;
@@ -66,6 +69,7 @@ nav {
     display: none;
     top: 100%;
 }
+
 /* Nav toggle */
 #nav-toggle:checked~nav {
     display: block;
@@ -74,6 +78,7 @@ nav {
 #nav-toggle {
     display: none;
 }
+
 .nav-toggle-label {
     font-size: 2rem;
 }
@@ -84,29 +89,35 @@ main {
     background-color: #51422C;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 45px;
+    padding-top: 15px;
+    margin-top: 45px
+    
 }
 
 /* Footer */
 footer {
     background-color: #d99F39;
 }
+
 /* Media query for mobile devices (max-width: 767px) */
 @media screen and (max-width: 767px) {
+
     /* Adjust font size for mobile devices */
     .logo-text {
         font-size: 20px;
         /* Adjust margin as needed */
-        margin-left: 3px; 
+        margin-left: 3px;
     }
+
     /* Adjust margin to center the toggle button */
     .nav-toggle-label {
-        margin-right: 10px; 
+        margin-right: 10px;
     }
 }
 
 /* Media query for tablets (768px and above) */
 @media screen and (min-width: 768px) {
+
     /* Adjust font size for tablets */
     .logo-text {
         font-size: 32px;
@@ -125,7 +136,7 @@ footer {
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
     }
 
@@ -148,6 +159,7 @@ footer {
 
 /* Media query for laptops and desktops (992px and above) */
 @media screen and (min-width: 992px) {
+
     /* Adjust font size for laptops and desktops */
     .logo-text {
         font-size: 40px;
