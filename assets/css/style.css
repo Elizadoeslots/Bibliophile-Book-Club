@@ -22,7 +22,7 @@
 header {
     background-color: #d99F39;
     padding: 1rem;
-    padding-bottom: .1px;
+    padding-bottom: .5px;
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -81,16 +81,23 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
+    color:#51422C
 }
-
 
 /* Main content */
 main {
-    background-color: #51422C;
     /* Make main element take up any surplus space to push footer down */
+    background-color: #51422C;
     flex: 1 0 auto;
     padding-top: 15px;
     margin-top: 45px
+}
+
+/* Hero image */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/Book Club Roscam.webp") no-repeat center center/cover;
 }
 
 /* Footer */
@@ -103,14 +110,13 @@ main {
     justify-content: space-evenly;
     list-style-type: none;
 }
+
 #social-networks i {
     font-size: 150%;
     margin: 0 5px;
-    color:#51422C;
+    color: #51422C;
     flex: 1;
 }
-
-
 
 /* Media query for mobile devices (max-width: 767px) */
 @media screen and (max-width: 767px) {
