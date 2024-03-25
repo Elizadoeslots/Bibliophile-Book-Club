@@ -91,13 +91,26 @@ main {
     flex: 1 0 auto;
     padding-top: 15px;
     margin-top: 45px
-    
 }
 
 /* Footer */
-footer {
+
+#social-networks {
     background-color: #d99F39;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
 }
+#social-networks i {
+    font-size: 150%;
+    margin: 0 5px;
+    color:#51422C;
+    flex: 1;
+}
+
+
 
 /* Media query for mobile devices (max-width: 767px) */
 @media screen and (max-width: 767px) {
@@ -109,13 +122,13 @@ footer {
         margin-left: 3px;
     }
 
-    /* Adjust margin to center the toggle button */
+    /* Adjust margin to moves the toggle button */
     .nav-toggle-label {
         margin-right: 10px;
     }
 }
 
-/* Media query for tablets (768px and above) */
+/* Media query for tablets (768px+) */
 @media screen and (min-width: 768px) {
 
     /* Adjust font size for tablets */
