@@ -81,7 +81,7 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
-    color:#51422C
+    color: #51422C
 }
 
 /* Main content */
@@ -95,11 +95,48 @@ main {
 
 /* Hero image */
 #hero {
-    height: 600px;
+    height: 700px;
     width: 100%;
     background: url("../images/Book Club Roscam.webp") no-repeat center center/cover;
+    .hidden-from-view {
+        display: none;
+    }
+}
+/* Who are we section */
+#about {
+    width: 90%;
+    margin: 20px auto;
+}
+.image-gallery-container {
+    max-width: 800px;
+    margin: 0 auto;
 }
 
+.image-gallery {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-container {
+    text-align: center;
+    flex: 1;
+    margin: 0 10px;
+    
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.caption {
+    margin-top: 25px;
+    font-size: 15px;
+    font-family: 'Madimi One', sans-serif;
+    background-color: #d99F39;
+    color:#51422C ;
+}
 /* Footer */
 
 #social-networks {
@@ -189,3 +226,14 @@ main {
         border-bottom: 1px solid #3a3a3a;
     }
 }
+/* Media query for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Stack images vertically on smaller screens */
+    .image-gallery {
+        flex-direction: column;
+    }
+/* One image per row on smaller screens */
+    .image-container {
+        flex: 0 0 calc(100% - 20px); 
+        margin: 10px; 
+    }
