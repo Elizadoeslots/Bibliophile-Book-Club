@@ -15,6 +15,11 @@
         color: #E0CFA8;
         font-family: 'Dosis', sans-serif;
     }
+    h2 {
+        font-size: 1.5rem;
+        line-height: 1.5;
+    }
+    
 
 }
 
@@ -235,6 +240,7 @@ flex-direction: column;
     background-color: #d99F39;
     color: #51422C;
 }
+
 
 /* Footer */
 
