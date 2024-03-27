@@ -158,7 +158,7 @@ main {
     /* Final rgba value sets the opacity so it is semi-transparent */
     background-color: rgba(81, 66, 44, 0.9)
     ;
-    font-size: 130%;
+    font-size: 100%;
     position: absolute;
     bottom: 50px;
     width: 80%;
@@ -222,6 +222,54 @@ main {
     height: 100vh; /* Take up the full viewport height */
     text-align: center; /* Center text inside the main content */
 }
+/* Youtube video */
+#video {
+    text-align: center;
+}
+.video-wrapper {
+    width: 100%;
+    max-width: 100%; /* Adjust this value as needed */
+    margin: 0 auto; /* Center horizontally */
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%; /* 16:9 aspect ratio */
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+.iframe-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+}
+
+.iframe-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/* About book section */
+#About-book {
+    padding: 50px; 
+    overflow: auto;
+}
+/* About author section */
+#About-author {
+    padding: 50px; 
+}
 
 /* Footer */
 #social-networks {
@@ -229,13 +277,13 @@ main {
     text-align: center;
     padding: 20px 0;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     list-style-type: none;
 }
 
 #social-networks i {
     font-size: 150%;
-    margin: 0 5px;
+    margin: 0 10px;
     color: #51422C;
     flex: 1;
 }
