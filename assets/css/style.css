@@ -109,12 +109,12 @@ main {
     color: #d99F39;
     background-color: rgba(60, 60, 60, 0.6);
     padding: 30px;
-    max-width: 900px; /* Limit width to avoid stretching */
-    text-align: center; /* Center text inside the form */
-    position: absolute; /* Position absolute for centering */
-    top: 50%; /* Move to 50% from top */
-    left: 50%; /* Move to 50% from left */
-    transform: translate(-50%, -50%); /* Center the form precisely */
+    max-width: 900px; 
+    text-align: center; 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
 }
 #signup-form>h2 {
     color: #d99F39;
@@ -193,6 +193,14 @@ main {
     font-family: 'Madimi One', sans-serif;
     background-color: #d99F39;
     color: #51422C;
+}
+/* Confirmation message */
+#confirmation-page {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Take up the full viewport height */
+    text-align: center; /* Center text inside the main content */
 }
 
 /* Footer */
