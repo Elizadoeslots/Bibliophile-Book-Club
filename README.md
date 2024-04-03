@@ -1,6 +1,6 @@
 # Bibliophile-Book Club
 
-[View live project here on GitHub]
+[View live project here on GitHub](https://elizadoeslots.github.io/Bibliophile-Book-Club/)
 
 Bibliophile Book Club is a book club for adults based in Roscam, Co. Galway. The book club meet in the Cumasu Center twice a week on a Tuesday morning and evening at 10am and 7pm.
 Members can bring along tea, coffee and treats to the morning club and wine if they wish to the evening meet-up.
@@ -11,9 +11,8 @@ For existing members, the site provides information on what the club are current
 
 <br>  
   
-
-
----
+  
+  ---
 
 ## CONTENTS  
   
@@ -207,7 +206,24 @@ I used [Google Fonts](https://fonts.google.com/) to import the fonts 'Dosis' and
 ### **Imagery**  
 
 Images and icons were taken from and/or created in Canva and are all royalty free. I chose an inviting image for the hero image of people of all ages to highlight the diversity of the book club.
-  
+  ## Deployment
+
+### **How to deploy**  
+
+GitHub was used to deploy the website. These were the steps taken to acheive this:  
+
+1. Login to GitHub account
+2. Navigate to the project repository, Bibliophile Book Club
+3. Click the Settings button.
+4. In the left-hand menu, click the Pages button
+5. In the Source section, choose 'main' from the drop-down, select branch menu
+6. Select 'root' from the drop-down folder menu
+7. Click 'Save' and after a few moments the project will be made live and a link is visible at the top of the page
+
+![screenshot of how to deploy site on github](docs/documentation/deployment.png) 
+
+---  
+    
 
 
 ---  
