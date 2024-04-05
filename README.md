@@ -2,6 +2,9 @@
 
 [View live project here on GitHub](https://elizadoeslots.github.io/Bibliophile-Book-Club/)
 
+![Bibliophile Book Club's website displayed on various devices](assets/images/responsivedesign.png)
+---
+
 Bibliophile Book Club is a book club for adults based in Roscam, Co. Galway. The book club meet in the Cumasu Center twice a week on a Tuesday morning and evening at 10am and 7pm.
 Members can bring along tea, coffee and treats to the morning club and wine if they wish to the evening meet-up.
 
@@ -208,6 +211,92 @@ I used [Google Fonts](https://fonts.google.com/) to import the fonts 'Dosis' and
 Images and icons were taken from and/or created in Canva and are all royalty free. I chose an inviting image for the hero image of people of all ages to highlight the diversity of the book club.
   ## Deployment
 
+## Page Features  
+
+### **Navbar**   
+<details open>
+<summary></summary>  
+
+![Photo of navbar](assets/images/navbar.png) 
+</details>
+The navigation bar is the same across the three pages and toggles on mobile devices and some tablets.
+  
+<br>  
+
+### **Hero Image**  
+<details open>  
+<summary></summary>
+
+![Photo of hero image](assets/images/heroimage.png)  
+</details>
+The hero image sits below the nav bar and is mobile responsive.
+
+<br> 
+
+### **Tagline **  
+<details open>
+<summary></summary> 
+
+![Photo of tagline](assets/images/heroimage.png)  
+</details>
+The tagline image is opaque so the hero image can still be seen. The tagline is a quote to inspire and invite people to join the club.
+
+<br>
+
+### **Books Page** 
+<details>
+<summary></summary> 
+
+![Photo of books page](assets/images/bookspage.png)  
+</details>
+The books page nav bar and hero image are the same as the home page for consistency. It consists of a youtube video, links to a pdf of meeting details, a link to buy the book, book and author information and a link to the join us page.
+
+<br>
+
+### **Contact Page**  
+<details>
+<summary></summary> 
+ 
+![Photo of join us page](assets/images/joinuspage.png)  
+</details>
+The join us page is a very simple join us form , positioned in the center of the page.
+
+<br>
+
+### **Footer**  
+<details>
+<summary></summary>
+
+![ of footer](assets/images/footer.png) 
+</details>
+The footer contains links to  social media accounts and is the same on all pages.
+
+## Technologies Used    
+
+### **Languages Used**   
+
+- HTML5
+- CSS3
+
+### **Frameworks, Libraries, Technologies & Programs Used**  
+
+- Balsamiq - used to create wireframes.
+- GitHub - used to save and store all files for the website  
+- Git - used for version control
+- Google Fonts - fonts were imported from here 
+- Font Awesome - icons and their associated kit were downloaded from here  
+- Adobe Color - for all color palettes and accessibility contrast ratios  
+- Favicon.io - used for book icon 
+- Tiny PNG - to compress images 
+- Google Dev Tools - to debug and for testing responsiveness 
+- Google Lighthouse - for auditing the website
+- W3C Validator - for validating the HTML and CSS code 
+-Image resizer-used to resize images
+-Canva used to create website images
+
+---   
+
+## Deployment
 ### **How to deploy**  
 
 GitHub was used to deploy the website. These were the steps taken to acheive this:  
@@ -220,9 +309,86 @@ GitHub was used to deploy the website. These were the steps taken to acheive thi
 6. Select 'root' from the drop-down folder menu
 7. Click 'Save' and after a few moments the project will be made live and a link is visible at the top of the page
 
+## Testing  
 
+### **Initial testing plan**
+
+Throughout the project the site was tested using google development tools.
+  
+### **Testing**    
+
+The site was tested on the following browsers.
+- Chrome  
+- Firefox  
+- Edge  
+
+The results of feature testing are as follows:  
+  
+| Page | Test | Pass/Fail |
+| :----| :----| :--------:|
+| All  | Logo links back to homepage | Pass |
+| All  | Underline stays under active navigation item | Pass |
+| All  | Navigation links bring the user to relevant page | Pass |
+| All  | Footer social media icons bring the user to relevant sites via a new tab | Pass |
+| All  | Images and sections are responsive in different media sizes | Pass |
+| Index| Images link to relevant links and open in new tab | Pass | 
+| Books| Youtube video plays | Pass |
+| Books| Images link to relevant links and open in new tab  | Pass |
+| Join us | Contact form required elements are responsive | Pass |
+| Join us| Form submit button brings you to a validation page | Pass |
 ---  
-    
+### **HTML Validation using W3C Validation**  
+<details open>
+<summary>Index/landing page HTML validation</summary>  
+
+![Photo of index page w3c html validation for Bibliophile Book Club](docs/indexhtml.png)
+</details>   
+<details>
+<summary>Books page HTML validation</summary>  
+
+![Photo of books page w3c html validation for Bibliophile Book Club](docs/bookshtml.png)
+</details>  
+<details>
+<summary>Join Us HTML validation</summary>  
+
+![Photo of Join Us w3c html validation for Bibliophile Book Club](docs/joinushtml.png)
+</details>  
+  
+  <details>
+<summary>Confirmation HTML validation</summary>  
+
+![Photo of Confirmation page w3c html validation for Bibliophile Book Club](docs/confirmationhtml.png)
+</details
+
+<br>  
+
+### **CSS Validation using W3C Validation** 
+
+<details open>
+<summary>Bibliophile Book Club CSS validation</summary>  
+
+![Photo of CSS validation for Bibliophile Book Club](docs/css.png)
+</details>   
+
+<br>  
+ ## Credits  
+  
+### **Content References**
+- Website content was created by Elizabeth Balfe and is purely fictional.
+- [Code Institute](https://codeinstitute.net/ie/) for their HTML/CSS learning material and 'navigation and footer' modules in the Love Running project.
+-[Code Institute](https://codeinstitute.net/ie/) for their HTML/CSS learning material, html and css for navigation, footer and join us form.
+- [W3Schools](https://www.w3schools.com/) for additional learning material.
+-https://sentry.io/answers/how-do-i-auto-resize-an-image-to-fit-a-div-container/-code for image containers on home page and books page.
+-My mentor explained how to create a sign-up confirmation page.
+-Aida Coughlan explained how to resize the cover text box and provided help and advice throughout the project.
+- [Kera Cudmore - Creating your First README](https://github.com/kera-cudmore/readme-examples) for README structure and Markdown guidance. 
+-https://www.readinggroupguides.com/printpdf/reviews/shantaram-Content for website, reading group questions.
+  
+  ### **Media References**  
+  
+- [Font Awesome](https://fontawesome.com/) for the icons used in the footer of this site.
+- [Favicon](https://favicon.io/) for the favicon used for this site.
+   
 
 
 ---  
